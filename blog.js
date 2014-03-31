@@ -1,4 +1,3 @@
-
 var env = process.argv[3] || 'pro';
 
 var config = {
@@ -10,9 +9,9 @@ var config = {
         timeInterval: 30*1000
     },
     pro: {
-        gitFoler: '/var/chenllos/blog/forward/blog',
-        current: '/var/chenllos/blog/current',
-        running: '/var/chenllos/blog/running',
+        gitFoler: '/chenllos/blog/forward/blog',
+        current: '/chenllos/blog/current',
+        running: '/chenllos/blog/running',
         appFile: 'app.js',
         timeInterval: 300*1000
     }
